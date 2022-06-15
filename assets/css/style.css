@@ -11,12 +11,6 @@ body {
     background-color: darkslategrey;
 }
 
-.calculator {
-    height: 80vh;
-    background-color: darkcyan;
-    width: 40vw;
-}
-
 .output {
     margin-top: 3vh;
     width: 90%;
@@ -45,6 +39,12 @@ body {
 
 .operator:hover {
     background-color: gray;
+}
+
+#calculator {
+    height: 80vh;
+    background-color: darkcyan;
+    width: 40vw;
 }
 
 #enter {
