@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkslategrey;
+}
+
+.calculator {
+    height: 80vh;
+    background-color: darkcyan;
+    width: 40vw;
+}
+
+.output {
+    margin-top: 3vh;
+    width: 90%;
+    height: 10vh;
+}
+
+.input-btn {
+    height: 10%;
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10%;
+}
+
+.num {
+    background-color: aquamarine;
+}
+
+.num:hover {
+    background-color: cadetblue;
+}
+
+.operator {
+    background-color: darkgray;
+}
+
+.operator:hover {
+    background-color: gray;
+}
+
+#enter {
+    background-color: darkgray;
+    width: 36.5%;
+}
+
+#enter:hover {
+    background-color: gray;
+}

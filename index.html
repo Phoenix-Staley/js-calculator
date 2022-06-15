@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Calculator</title>
 </head>
 <body>
-    
+    <div class="container is-flex mx-auto py-6 is-flex-wrap-wrap is-flex-direction-row is-justify-content-center">
+        <div class="is-full has-text-centered calculator">
+            <input disabled="true" class="output">
+            <button data-num="1" class="input-btn num">1</button>
+            <button data-num="2" class="input-btn num">2</button>
+            <button data-num="3" class="input-btn num">3</button>
+            <button id="add" class="input-btn operator">+</button>
+            <button data-num="4" class="input-btn num">4</button>
+            <button data-num="5" class="input-btn num">5</button>
+            <button data-num="6" class="input-btn num">6</button>
+            <button id="sub" class="input-btn operator">-</button>
+            <button data-num="7" class="input-btn num">7</button>
+            <button data-num="8" class="input-btn num">8</button>
+            <button data-num="9" class="input-btn num">9</button>
+            <button id="multiply" class="input-btn operator">*</button>
+            <button data-num="0" class="input-btn num">0</button>
+            <button id="enter" class="input-btn">Enter</button>
+            <button id="div" class="input-btn operator">/</button>
+        </div>
+    </div>
 </body>
 </html>
