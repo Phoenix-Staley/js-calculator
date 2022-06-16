@@ -11,12 +11,6 @@ body {
     background-color: darkslategrey;
 }
 
-.output {
-    margin-top: 3vh;
-    width: 90%;
-    height: 10vh;
-}
-
 .input-btn {
     height: 10%;
     width: 15%;
@@ -39,6 +33,14 @@ body {
 
 .operator:hover {
     background-color: gray;
+}
+
+#output {
+    margin-top: 3vh;
+    width: 90%;
+    height: 10vh;
+    font-size: xx-large;
+    text-align: right;
 }
 
 #calculator {
